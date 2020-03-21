@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "ClaimR",
-    author: "Adriaan Knapen",
-    description: "Verified location-as-a-service API."
+    title: 'ClaimR',
+    author: 'Adriaan Knapen',
+    description: 'Verified location-as-a-service API.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +19,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
   ],
 }
