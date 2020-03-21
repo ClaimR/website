@@ -25,10 +25,20 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "husky": ">=4",
+    "lint-staged": ">=10",
     "prettier": "1.19.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/claimr/docs"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "prettier --write"
   }
 }
