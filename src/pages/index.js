@@ -63,32 +63,31 @@ class Homepage extends React.Component {
             </div>
             <div className="col-6">
               <header className="major">
-                <h2>
-                  Lorem ipsum dolor adipiscing
-                  <br />
-                  amet dolor consequat
-                </h2>
+                <h2>What we do</h2>
               </header>
               <p>
-                Adipiscing a commodo ante nunc accumsan interdum mi ante
-                adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus
-                nascetur ac non. Lorem curae eu ante amet sapien in tempus ac.
-                Adipiscing id accumsan adipiscing ipsum.
+                Proving one’s location for additional security can be a
+                challenge at best. Not only is it hard to prove, there are also
+                further privacy concerns associated with it, thus requires an
+                implementation that all parties can trust. To aid in this
+                security obstacle we created ClaimR, a third party service
+                verifying ones location with a signed certificate.
               </p>
               <p>
-                Blandit faucibus proin. Ac aliquam integer adipiscing enim non
-                praesent vis commodo nunc phasellus cubilia ac risus accumsan.
-                Accumsan blandit. Lobortis phasellus non lobortis dit varius mi
-                varius accumsan lobortis. Blandit ante aliquam lacinia lorem
-                lobortis semper morbi col faucibus vitae integer placerat
-                accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing
-                curae consequat feugiat etiam dolore.
+                Using raw GNSS data from your mobile we are able to determine
+                your location and create a signed certificate verifying your
+                location to any service requiring the information. Depending on
+                the request, we can provide an exact pin pointed location or a
+                more generic and broad placement, such as the city of London.
+                ClaimR also makes location faking using software much harder due
+                to the use of raw GNSS data, massively reducing the ease of
+                attack.
               </p>
               <p>
-                Adipiscing a commodo ante nunc accumsan interdum mi ante
-                adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus
-                nascetur ac non. Lorem curae eu ante amet sapien in tempus ac.
-                Adipiscing id accumsan adipiscing ipsum.
+                The user can effortlessly request and provide their location
+                information to a service, whilst ensuring trust from both
+                parties using the security and accuracy of the information via
+                ClaimR.
               </p>
             </div>
           </div>
