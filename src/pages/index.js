@@ -103,63 +103,71 @@ class Homepage extends React.Component {
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
-                <h2>Adipiscing amet consequat</h2>
+                <h2>Use cases</h2>
               </header>
-              <p>
-                Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.
-              </p>
+              {/* <p>
+                When .
+              </p> */}
             </div>
 
             <div className="col-4">
               <span className="image fit">
                 <img src={pic02} alt="" />
               </span>
-              <h3>Magna feugiat lorem</h3>
+              <h3>Identification</h3>
               <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
+                Knowning someones location with certainty can be used as an
+                additional layer in identification and authentication purposes.
               </p>
-              <ul className="actions">
+              {/* <ul className="actions">
                 <li>
                   <a href="#" className="button">
                     More
                   </a>
                 </li>
-              </ul>
+              </ul>*/}
             </div>
             <div className="col-4">
               <span className="image fit">
                 <img src={pic03} alt="" />
               </span>
-              <h3>Magna feugiat lorem</h3>
+              <h3>Fraud Prevention</h3>
               <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
+                Many services today are depending on location services for their
+                functioning, however it is near trivial for users to use
+                software to spoof their location. This spoofed location can be
+                used for fraudulent transactions, like cheating in location
+                based games
               </p>
+              {/* 
               <ul className="actions">
                 <li>
                   <a href="#" className="button">
                     More
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
             <div className="col-4">
               <span className="image fit">
                 <img src={pic04} alt="" />
               </span>
-              <h3>Magna feugiat lorem</h3>
+              <h3>Privacy</h3>
               <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
+                ClaimR creates certificates do not contain the exact location of
+                a user. Instead, a certificate includes an area in which the
+                user is. This area can be small, like several square meters, or
+                large, like a continent. As such, a user can get a claim that
+                they are in a certain region without disclosing their exact
+                location.
               </p>
-              <ul className="actions">
+              {/* <ul className="actions">
                 <li>
                   <a href="#" className="button">
                     More
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </section>
