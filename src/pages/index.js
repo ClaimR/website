@@ -3,10 +3,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 
-import pic01 from '../assets/images/concept.png'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import concept from '../assets/images/concept.png'
 
 class Homepage extends React.Component {
   render() {
@@ -37,7 +34,7 @@ class Homepage extends React.Component {
             </div>
             <div className="col-6">
               <span className="image fit">
-                <img src={pic01} alt="" />
+                <img src={concept} alt="" />
               </span>
             </div>
           </div>
