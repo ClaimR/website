@@ -66,7 +66,7 @@ class Homepage extends React.Component {
             </div>
             <div className="col-6">
               <header className="major">
-                <h2>What we do</h2>
+                <h2>What We Do</h2>
               </header>
               <p>
                 Proving one’s location for additional security can be a
@@ -100,7 +100,7 @@ class Homepage extends React.Component {
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
-                <h2>Use cases</h2>
+                <h2>Use Cases</h2>
               </header>
               {/* <p>
                 When .
@@ -175,7 +175,7 @@ class Homepage extends React.Component {
         <section id="demo" className="main style2 special">
           <div className="container">
             <header className="major">
-              <h2>See it in action</h2>
+              <h2>See it in Action</h2>
             </header>
             <p>
               Are your fingers itching to get started? Just go and explore our{' '}
