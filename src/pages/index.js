@@ -23,10 +23,13 @@ class Homepage extends React.Component {
                 <h2>Our Concept</h2>
               </header>
               <p>
-                Adipiscing a commodo ante nunc accumsan et interdum mi ante
-                adipiscing. A nunc lobortis non nisl amet vis sed volutpat
-                aclacus nascetur ac non. Lorem curae et ante amet sapien sed
-                tempus adipiscing id accumsan.
+                We offer an API which takes raw GNSS data to verify your user's
+                locations. A user sends their raw GNSS data to our servers to
+                request a certificate stating that they are in a specific area.
+                If the location according to their GNSS data satisfies this
+                claim, it is granted in the form of a JSON Web Token (JWT). This
+                JWT can then be used by the user to proof to other parties their
+                verified location.
               </p>
             </div>
             <div className="col-6">
