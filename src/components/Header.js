@@ -11,7 +11,8 @@ class Header extends React.Component {
             <br /> and trustworthy location verification service.
           </h1>
           <p>
-            With me on your side, verify your user's location will be a breeze.
+            With me on your side, verifying your user's location will be a
+            breeze.
           </p>
           <ul className="actions">
             <li>
