@@ -112,7 +112,7 @@ class Homepage extends React.Component {
 
             <div className="col-4">
               <span className="image fit">
-                <img src={pic02} alt="" />
+                <span className="icon style1 major fa-id-badge"></span>
               </span>
               <h3>Identification</h3>
               <p>
@@ -132,7 +132,7 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic03} alt="" />
+                <span className="icon style1 major fa-shield"></span>
               </span>
               <h3>Fraud Prevention</h3>
               <p>
@@ -153,12 +153,12 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <span className="icon style1 major fa-map"></span>
               </span>
               <h3>Privacy</h3>
               <p>
-                ClaimR creates certificates do not contain the exact location of
-                a user. Instead, a certificate includes an area in which the
+                ClaimR creates certificates which do not contain a users' exact
+                location. Instead, a certificate includes an area in which the
                 user is. This area can be small, like several square meters, or
                 large, like a continent. As such, a user can get a claim that
                 they are in a certain region without disclosing their exact
