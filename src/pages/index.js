@@ -12,6 +12,9 @@ class Homepage extends React.Component {
   render() {
     const siteTitle = 'ClaimR'
 
+    const guideUrl = '//gist.github.com/Addono/448ff19285fcf229fd89a35662334e6b'
+    const liveApiUrl = '//api.claimr.tools'
+
     return (
       <Layout>
         <Helmet title={siteTitle} />
@@ -164,18 +167,22 @@ class Homepage extends React.Component {
         <section id="four" className="main style2 special">
           <div className="container">
             <header className="major">
-              <h2>Ipsum feugiat consequat?</h2>
+              <h2>See it in action</h2>
             </header>
-            <p>Sed lacus nascetur ac ante amet sapien.</p>
+            <p>
+              Are your fingers itching to get started? Just go and explore our{' '}
+              <a href={liveApiUrl}>live API</a> or follow the{' '}
+              <a href={guideUrl}>"Getting Started"</a> guide.
+            </p>
             <ul className="actions uniform">
               <li>
-                <a href="#" className="button special">
-                  Sign Up
+                <a href={liveApiUrl} className="button special">
+                  Live API
                 </a>
               </li>
               <li>
-                <a href="#" className="button">
-                  Learn More
+                <a href={guideUrl} className="button">
+                  Getting Started
                 </a>
               </li>
             </ul>
