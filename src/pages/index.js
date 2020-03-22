@@ -117,7 +117,10 @@ class Homepage extends React.Component {
               <h3>Identification</h3>
               <p>
                 Knowning someones location with certainty can be used as an
-                additional layer in identification and authentication purposes.
+                additional layer in identification and authentication processes.
+                Using verified locations can be a non-intrusive method to
+                quickly increase the confidence for a users identification
+                request.
               </p>
               {/* <ul className="actions">
                 <li>
