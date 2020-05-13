@@ -16,8 +16,8 @@ class Header extends React.Component {
           </p>
           <ul className="actions">
             <li>
-              <a href="#demo" className="button scrolly">
-                Get started now
+              <a href="#one" className="button scrolly">
+                Read on
               </a>
             </li>
           </ul>
