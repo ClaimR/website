@@ -172,7 +172,7 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        <section id="demo" className="main style2 special">
+        {/* <section id="demo" className="main style2 special">
           <div className="container">
             <header className="major">
               <h2>See it in Action</h2>
@@ -195,7 +195,7 @@ class Homepage extends React.Component {
               </li>
             </ul>
           </div>
-        </section>
+        </section> */}
       </Layout>
     )
   }
