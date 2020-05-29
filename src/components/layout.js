@@ -28,11 +28,18 @@ class Template extends React.Component {
     const { children } = this.props
 
     return (
-      <div className={`body ${this.state.loading}`}>
-        <Header />
-        {children}
-        <Footer />
-      </div>
+      <>
+        <div className={`body ${this.state.loading}`}>
+          <Header />
+          {children}
+          <Footer />
+        </div>
+        <script
+          data-goatcounter="https://claimr.goatcounter.com/count"
+          async
+          src="//gc.zgo.at/count.js"
+        ></script>
+      </>
     )
   }
 }
