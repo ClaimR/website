@@ -43,7 +43,7 @@ class Homepage extends React.Component {
         <section id="two" className="main style2">
           <div className="grid-wrapper">
             <div className="col-6">
-              <ul className="major-icons">
+              {/* <ul className="major-icons">
                 <li>
                   <span className="icon style1 major fa-code"></span>
                 </li>
@@ -62,7 +62,7 @@ class Homepage extends React.Component {
                 <li>
                   <span className="icon style6 major fa-calendar"></span>
                 </li>
-              </ul>
+              </ul> */}
             </div>
             <div className="col-6">
               <header className="major">
@@ -129,7 +129,7 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
-                <span className="icon style1 major fa-shield"></span>
+                <span className="icon style3 major fa-shield"></span>
               </span>
               <h3>Fraud Prevention</h3>
               <p>
@@ -150,7 +150,7 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
-                <span className="icon style1 major fa-map"></span>
+                <span className="icon style6 major fa-map"></span>
               </span>
               <h3>Privacy</h3>
               <p>
