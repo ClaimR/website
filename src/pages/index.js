@@ -20,16 +20,21 @@ class Homepage extends React.Component {
           <div className="grid-wrapper">
             <div className="col-6">
               <header className="major">
-                <h2>Our Concept</h2>
+                <h2>Verified Locations Made Simple</h2>
               </header>
               <p>
-                We offer an API which takes raw GNSS data to verify your user's
-                locations. A user sends their raw GNSS data to our servers to
-                request a certificate stating that they are in a specific area.
-                If the location according to their GNSS data satisfies this
-                claim, it is granted in the form of a JSON Web Token (JWT). This
-                JWT can then be used by the user to proof to other parties their
-                verified location.
+                Spoofing positioning systems, such as GPS, has become common
+                practice. Take for example AR based games (Pokemon Go and the
+                like) and many have an active community of "spoofers" who modify
+                the location perceived by their phone to get in-game benefits.
+              </p>
+              <p>
+                ClaimR uses raw measurements from positioning system (GNSS)
+                satellites and analyses these to detect malicious location
+                manipulations. Our goal is to make verifying your user's
+                location simple, hence you do not need to know anything about
+                the intricacies of GNSS in order to reap its benifits when using
+                ClaimR.
               </p>
             </div>
             <div className="col-6">
