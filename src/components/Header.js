@@ -6,18 +6,20 @@ class Header extends React.Component {
       <section id="header">
         <div className="inner">
           <span className="icon major fa-cloud"></span>
-          <h1>
-            Hi, I'm <strong>ClaimR</strong>, the secure, convenient
-            <br /> and trustworthy location verification service.
-          </h1>
+          <h1>Eliminating Location Fraud. Made Easy.</h1>
           <p>
-            With me on your side, verifying your user's location will be a
-            breeze.
+            With <strong>ClaimR</strong> developers can verify their users'
+            location. Fighting fraud caused by software and hardware spoofing of
+            location positioning systems.
           </p>
           <ul className="actions">
             <li>
-              <a href="#one" className="button scrolly">
-                Read on
+              <a
+                href="https://youtube.com/watch?v=Nn2FN5SepGA"
+                className="button"
+                target="_blank"
+              >
+                Watch demo
               </a>
             </li>
           </ul>
