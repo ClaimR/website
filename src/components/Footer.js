@@ -13,6 +13,14 @@ class Footer extends React.Component {
               <span className="label">GitHub</span>
             </a>
           </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCZRWpBaWAeLP6uYLE0kDbRg"
+              className="icon alt fa-youtube-play"
+            >
+              <span className="label">Youtube</span>
+            </a>
+          </li>
           {/* <li><a href="#" className="icon alt fa-envelope"><span className="label">Email</span></a></li> */}
         </ul>
         <ul className="copyright">
