@@ -9,7 +9,7 @@ class Footer extends React.Component {
           {/* <li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li> */}
           {/* <li><a href="#" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li> */}
           <li>
-            <a href="//github.com/claimr" className="icon alt fa-github">
+            <a href="https://github.com/ClaimR" className="icon alt fa-github">
               <span className="label">GitHub</span>
             </a>
           </li>
