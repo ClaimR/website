@@ -934,6 +934,14 @@
 			background-size: auto, cover;
 			background-position: center center, center right;
 		}
+
+		&.style3 {
+			@include dark(#333);
+			background-attachment:	fixed, fixed;
+			background-image:	linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/background.jpg'), linear-gradient(125deg, rgb(0, 0, 0) 0%, rgb(19, 0, 47) 77%, rgb(12, 62, 88) 96%, rgb(0, 155, 149) 100%);
+			background-size: auto, cover;
+			background-position: center bottom, center right;
+		}
 	}
 
 /* Header */
@@ -1026,7 +1034,7 @@
 		@include padding(6em, 0, (0,0,_size(element-margin),0));
 		@include dark(#4686a0);
 		background-attachment:	fixed;
-		background-image: url('../images/background.jpg');
+		background-color: #000;
 		background-position: bottom right;
 		background-size: cover;
 		text-align: center;

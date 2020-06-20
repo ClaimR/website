@@ -178,7 +178,7 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        <section id="demo" className="main style2 special">
+        <section id="demo" className="main style3 special">
           <div className="container">
             <header className="major">
               <h2>Getting Started</h2>
