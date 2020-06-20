@@ -18,6 +18,7 @@ class Header extends React.Component {
                 href="https://youtube.com/watch?v=Nn2FN5SepGA"
                 className="button"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Watch demo
               </a>

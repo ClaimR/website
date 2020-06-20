@@ -205,12 +205,22 @@ class Homepage extends React.Component {
             </p>
             <ul className="actions uniform">
               <li>
-                <a href={liveApiUrl} className="button special" target="_blank">
+                <a
+                  href={liveApiUrl}
+                  className="button special"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Live API
                 </a>
               </li>
               <li>
-                <a href={videoGuideUrl} className="button" target="_blank">
+                <a
+                  href={videoGuideUrl}
+                  className="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <span className="icon fa-youtube-play"></span> API Video Guide
                 </a>
               </li>
@@ -219,6 +229,7 @@ class Homepage extends React.Component {
                   href={reactNativeClientUrl}
                   className="button"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className="icon fa-github"></span> React Native SDK
                 </a>
