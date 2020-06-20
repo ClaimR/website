@@ -183,7 +183,7 @@ class Homepage extends React.Component {
             <header className="major">
               <h2>Getting Started</h2>
             </header>
-            <p>
+            <p className="align-center">
               Looking to discover our API? Visit our{' '}
               <a href={liveApiUrl}>live API</a> or watch the{' '}
               <a href={videoGuideUrl}>"Getting Started"</a> video guide.
