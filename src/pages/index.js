@@ -9,8 +9,9 @@ class Homepage extends React.Component {
   render() {
     const siteTitle = 'ClaimR'
 
-    const guideUrl = '//gist.github.com/Addono/448ff19285fcf229fd89a35662334e6b'
-    const liveApiUrl = '//api.claimr.tools'
+    const videoGuideUrl = 'https://youtube.com/watch?v=EtDkMG_wSZ4'
+    const liveApiUrl = 'https://api.claimr.tools'
+    const reactNativeClientUrl = 'https://github.com/ClaimR/react-native-client'
 
     return (
       <Layout>
@@ -177,30 +178,46 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        {/* <section id="demo" className="main style2 special">
+        <section id="demo" className="main style2 special">
           <div className="container">
             <header className="major">
-              <h2>See it in Action</h2>
+              <h2>Getting Started</h2>
             </header>
             <p>
-              Are your fingers itching to get started? Just go and explore our{' '}
-              <a href={liveApiUrl}>live API</a> or follow the{' '}
-              <a href={guideUrl}>"Getting Started"</a> guide.
+              Looking to discover our API? Visit our{' '}
+              <a href={liveApiUrl}>live API</a> or watch the{' '}
+              <a href={videoGuideUrl}>"Getting Started"</a> video guide.
+              <br />
+              Developing for Android using React Native? Check out our{' '}
+              <a href={reactNativeClientUrl}>client</a>.
             </p>
             <ul className="actions uniform">
               <li>
-                <a href={liveApiUrl} className="button special">
+                <a
+                  href={liveApiUrl}
+                  className="button special"
+                  target={'_blank'}
+                >
                   Live API
                 </a>
               </li>
               <li>
-                <a href={guideUrl} className="button">
-                  Getting Started
+                <a href={videoGuideUrl} className="button" target={'_blank'}>
+                  <span className="icon fa-youtube-play"></span> API Video Guide
+                </a>
+              </li>
+              <li>
+                <a
+                  href={reactNativeClientUrl}
+                  className="button"
+                  target={'_blank'}
+                >
+                  <span className="icon fa-github"></span> React Native Client
                 </a>
               </li>
             </ul>
           </div>
-        </section> */}
+        </section>
       </Layout>
     )
   }
