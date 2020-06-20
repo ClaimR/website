@@ -115,35 +115,20 @@ class Homepage extends React.Component {
 
             <div className="col-4">
               <span className="image fit">
-                <span className="icon style1 major fa-id-badge"></span>
-              </span>
-              <h3>Identification</h3>
-              <p>
-                Knowning someones location with certainty can be used as an
-                additional layer in identification and authentication processes.
-                Using verified locations can be a non-intrusive method to
-                quickly increase the confidence for a users identification
-                request.
-              </p>
-              {/* <ul className="actions">
-                <li>
-                  <a href="#" className="button">
-                    More
-                  </a>
-                </li>
-              </ul>*/}
-            </div>
-            <div className="col-4">
-              <span className="image fit">
                 <span className="icon style3 major fa-shield"></span>
               </span>
               <h3>Fraud Prevention</h3>
               <p>
-                Many services today are depending on location services for their
-                functioning, however it is near trivial for users to use
-                software to spoof their location. This spoofed location can be
-                used for fraudulent transactions, like cheating in location
-                based games
+                Manipulating the location reported by positioning devices has
+                become simple and common. As a result augmented reality based
+                games, such as Pokemon Go, have attracted a vast group of
+                "spoofers". Spoofers manipulate the location reported by their
+                mobile devices to get in-game advantages. ClaimR acts as a
+                second opinion such that{' '}
+                <b>
+                  your app can trust that the location of the user is legitimate
+                </b>
+                .
               </p>
               {/* 
               <ul className="actions">
@@ -156,16 +141,43 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
+                <span className="icon style1 major fa-id-badge"></span>
+              </span>
+              <h3>Authorization</h3>
+              <p>
+                Some content or information should only be possible to access
+                based on your user's location. Take for example a ride hauling
+                app, competitors would get a strong advantage if they pretend to
+                be a user and get access to data on where all vehicles are.
+                Limit the data a user can access to merely what's in their
+                direct surroundings eliminates this threat. With verified
+                location you can{' '}
+                <b>
+                  prevent your users from accessing data they are not supposed
+                  to have access to
+                </b>
+                .
+              </p>
+              {/* <ul className="actions">
+                <li>
+                  <a href="#" className="button">
+                    More
+                  </a>
+                </li>
+              </ul>*/}
+            </div>
+            <div className="col-4">
+              <span className="image fit">
                 <span className="icon style6 major fa-map"></span>
               </span>
-              <h3>Privacy</h3>
+              <h3>Privacy Enhancing</h3>
               <p>
-                ClaimR creates certificates which do not contain a users' exact
-                location. Instead, a certificate includes an area in which the
-                user is. This area can be small, like several square meters, or
-                large, like a continent. As such, a user can get a claim that
-                they are in a certain region without disclosing their exact
-                location.
+                ClaimR lets your users create "claims" about their location.
+                Claims allows your users to prove something about their location{' '}
+                <b>without sharing their exact location</b>. A claim could be
+                that the user is within a certain area. You can decide what this
+                area is based on your use-case, it can be anything between a
+                couple of square meters up till an entire continent.
               </p>
               {/* <ul className="actions">
                 <li>
@@ -193,16 +205,12 @@ class Homepage extends React.Component {
             </p>
             <ul className="actions uniform">
               <li>
-                <a
-                  href={liveApiUrl}
-                  className="button special"
-                  target={'_blank'}
-                >
+                <a href={liveApiUrl} className="button special" target="_blank">
                   Live API
                 </a>
               </li>
               <li>
-                <a href={videoGuideUrl} className="button" target={'_blank'}>
+                <a href={videoGuideUrl} className="button" target="_blank">
                   <span className="icon fa-youtube-play"></span> API Video Guide
                 </a>
               </li>
@@ -210,7 +218,7 @@ class Homepage extends React.Component {
                 <a
                   href={reactNativeClientUrl}
                   className="button"
-                  target={'_blank'}
+                  target="_blank"
                 >
                   <span className="icon fa-github"></span> React Native SDK
                 </a>
