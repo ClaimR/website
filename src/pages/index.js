@@ -189,7 +189,7 @@ class Homepage extends React.Component {
               <a href={videoGuideUrl}>"Getting Started"</a> video guide.
               <br />
               Developing for Android using React Native? Check out our{' '}
-              <a href={reactNativeClientUrl}>client</a>.
+              <a href={reactNativeClientUrl}>React Native SDK</a>.
             </p>
             <ul className="actions uniform">
               <li>
@@ -212,7 +212,7 @@ class Homepage extends React.Component {
                   className="button"
                   target={'_blank'}
                 >
-                  <span className="icon fa-github"></span> React Native Client
+                  <span className="icon fa-github"></span> React Native SDK
                 </a>
               </li>
             </ul>
