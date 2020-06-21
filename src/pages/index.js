@@ -21,7 +21,7 @@ class Homepage extends React.Component {
           <div className="grid-wrapper">
             <div className="col-6">
               <header className="major">
-                <h2>Verified Locations Made Simple</h2>
+                <h2>Verified Location Made Simple</h2>
               </header>
               <p>
                 Spoofing positioning systems, such as GPS, has become common
