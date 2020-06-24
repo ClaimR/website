@@ -190,7 +190,7 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        <section id="demo" className="main style3 special">
+        <section id="getting-started" className="main style3 special">
           <div className="container">
             <header className="major">
               <h2>Getting Started</h2>
