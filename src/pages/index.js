@@ -8,6 +8,8 @@ import concept from '../assets/images/concept.png'
 class Homepage extends React.Component {
   render() {
     const siteTitle = 'ClaimR'
+    const siteDescription =
+      'ClaimR offers Verified Location-as-a-Service for mobile devices. We use state of the art GNSS technology to fight location fraud.'
 
     const videoGuideUrl = 'https://youtube.com/watch?v=EtDkMG_wSZ4'
     const liveApiUrl = 'https://api.claimr.tools'
@@ -15,7 +17,11 @@ class Homepage extends React.Component {
 
     return (
       <Layout>
-        <Helmet title={siteTitle} />
+        <Helmet title={siteTitle}>
+          <html lang="en" />
+
+          <meta name="description" content={siteDescription} />
+        </Helmet>
 
         <section id="one" className="main style1">
           <div className="grid-wrapper">
