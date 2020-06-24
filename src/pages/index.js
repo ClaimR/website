@@ -216,6 +216,7 @@ class Homepage extends React.Component {
                   className="button special"
                   target="_blank"
                   rel="noopener noreferrer"
+                  alt="Visit the ClaimR API"
                 >
                   Live API
                 </a>
@@ -226,6 +227,7 @@ class Homepage extends React.Component {
                   className="button"
                   target="_blank"
                   rel="noopener noreferrer"
+                  alt="View ClaimR API Usage Video Guide on Youtube"
                 >
                   <span className="icon fa-youtube-play"></span> API Video Guide
                 </a>
@@ -236,6 +238,7 @@ class Homepage extends React.Component {
                   className="button"
                   target="_blank"
                   rel="noopener noreferrer"
+                  alt="Visit ClaimR's React Native SDK on Github"
                 >
                   <span className="icon fa-github"></span> React Native SDK
                 </a>
