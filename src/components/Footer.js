@@ -1,5 +1,13 @@
 import React from 'react'
 
+const email = 'contact@claimr.tools'
+
+const EmailContactLink = ({ children, className = '' }) => (
+  <a href={`mailto:${email}`} className={className}>
+    {children}
+  </a>
+)
+
 const Footer = () => (
   <section id="footer">
     <ul className="icons">
@@ -7,9 +15,9 @@ const Footer = () => (
       {/* <li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li> */}
       {/* <li><a href="#" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li> */}
       <li>
-        <a href="mailto:contact@claimr.tools" className="icon alt fa-envelope">
+        <EmailContactLink className="icon alt fa-envelope">
           <span className="label">Email</span>
-        </a>
+        </EmailContactLink>
       </li>
       <li>
         <a
@@ -31,7 +39,10 @@ const Footer = () => (
       </li>
     </ul>
     <ul className="copyright">
-      <li>&copy; ClaimR 2020</li>
+      <li>{'©'} ClaimR 2020</li>
+      <li>
+        <EmailContactLink>{email}</EmailContactLink>
+      </li>
       <li>
         Design by <a href="//html5up.net">HTML5 UP</a>
       </li>
