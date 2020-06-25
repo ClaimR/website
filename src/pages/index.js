@@ -6,8 +6,6 @@ import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 
-import concept from '../assets/images/concept.png'
-
 const siteTitle = 'ClaimR'
 const siteDescription =
   'ClaimR offers Verified Location-as-a-Service for mobile devices. We use state of the art GNSS technology to fight location fraud.'
