@@ -9,6 +9,19 @@ import Layout from '../components/layout'
 const siteTitle = 'ClaimR'
 const siteDescription =
   'ClaimR offers Verified Location-as-a-Service for mobile devices. We use state of the art GNSS technology to fight location fraud.'
+const siteKeywords = [
+  'GNSS',
+  'GPS',
+  'developers',
+  'SDK',
+  'Android',
+  'React Native',
+  'ClaimR',
+  'location',
+  'verification',
+  'fraud',
+  'prevention',
+]
 
 const videoGuideUrl = 'https://youtube.com/watch?v=EtDkMG_wSZ4'
 const liveApiUrl = 'https://api.claimr.tools'
@@ -35,6 +48,7 @@ export default ({ data }) => (
       <html lang="en" />
 
       <meta name="description" content={siteDescription} />
+      <meta name="keywords" content={siteKeywords.join(', ')} />
     </Helmet>
 
     <section id="one" className="main style1">
