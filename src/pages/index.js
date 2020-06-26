@@ -139,15 +139,11 @@ export default ({
           </span>
           <h3>Fraud Prevention</h3>
           <p>
-            Manipulating the location reported by positioning devices has become
-            simple and common. As a result augmented reality based games, such
-            as Pokemon Go, have attracted a vast group of "spoofers". Spoofers
-            manipulate the location reported by their mobile devices to get
-            in-game advantages. ClaimR acts as a second opinion such that{' '}
-            <b>
-              your app can trust that the location of the user is legitimate
-            </b>
-            .
+            Spoofers can manipulate the location of their mobile devices to
+            bypass country-specific restrictions for drones, to get in-game
+            advantages in augmented reality based games and to contact people
+            via location-based dating apps. ClaimR provides a second opinion for
+            your app to <b>trust that the user location is legitimate</b>.
           </p>
           {/* 
               <ul className="actions">
@@ -164,17 +160,11 @@ export default ({
           </span>
           <h3>Authorization</h3>
           <p>
-            Some content or information should only be possible to access based
-            on your user's location. Take for example a ride hauling app,
-            competitors would get a strong advantage if they pretend to be a
-            user and get access to data on where all vehicles are. Limit the
-            data a user can access to merely what's in their direct surroundings
-            eliminates this threat. With verified location you can{' '}
-            <b>
-              prevent your users from accessing data they are not supposed to
-              have access to
-            </b>
-            .
+            Some <b>content should be accessible based on a user's location</b>.
+            Ensuring that the users of a family account are based in the same
+            household, or that competitors can’t track the vehicles of a ride
+            hauling app with faked locations, can be eliminated with the ClaimR
+            verification.
           </p>
           {/* <ul className="actions">
                 <li>
@@ -190,12 +180,10 @@ export default ({
           </span>
           <h3>Privacy Enhancing</h3>
           <p>
-            ClaimR lets your users create "claims" about their location. Claims
-            allows your users to prove something about their location{' '}
-            <b>without sharing their exact location</b>. A claim could be that
-            the user is within a certain area. You can decide what this area is
-            based on your use-case, it can be anything between a couple of
-            square meters up till an entire continent.
+            Location tracking is a threat to user privacy, ClaimR uses claims
+            which allow for <b>flexible verification accuracy</b>, varying from
+            square meters to continents. If you want to earn the trust of your
+            loyal users, ClaimR is your choice.
           </p>
           {/* <ul className="actions">
                 <li>
