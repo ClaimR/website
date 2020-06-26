@@ -2,10 +2,24 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: 'ClaimR',
+    title: 'ClaimR - Verified Location Made Easy',
     author: 'Adriaan Knapen',
-    description: 'Verified location-as-a-service API.',
     siteUrl: 'https://claimr.tools',
+    description:
+      'ClaimR offers Verified Location-as-a-Service for mobile devices. We use state of the art GNSS technology to fight location fraud.',
+    keywords: [
+      'GNSS',
+      'GPS',
+      'developers',
+      'SDK',
+      'Android',
+      'React Native',
+      'ClaimR',
+      'location',
+      'verification',
+      'fraud',
+      'prevention',
+    ],
   },
   plugins: [
     {

@@ -6,23 +6,6 @@ import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 
-const siteTitle = 'ClaimR - Verified Location Made Easy'
-const siteDescription =
-  'ClaimR offers Verified Location-as-a-Service for mobile devices. We use state of the art GNSS technology to fight location fraud.'
-const siteKeywords = [
-  'GNSS',
-  'GPS',
-  'developers',
-  'SDK',
-  'Android',
-  'React Native',
-  'ClaimR',
-  'location',
-  'verification',
-  'fraud',
-  'prevention',
-]
-
 const videoGuideUrl = 'https://youtube.com/watch?v=EtDkMG_wSZ4'
 const liveApiUrl = 'https://api.claimr.tools'
 const reactNativeClientUrl = 'https://github.com/ClaimR/react-native-client'
@@ -39,16 +22,31 @@ export const query = graphql`
         }
       }
     }
+    site {
+      siteMetadata {
+        title
+        siteUrl
+        description
+        keywords
+      }
+    }
   }
 `
 
-export default ({ data }) => (
+export default ({
+  data: {
+    site: { siteMetadata },
+  },
+  file,
+}) => (
   <Layout>
-    <Helmet title={siteTitle}>
+    <Helmet title={siteMetadata.title}>
       <html lang="en" />
 
-      <meta name="description" content={siteDescription} />
-      <meta name="keywords" content={siteKeywords.join(', ')} />
+      <meta name="description" content={siteMetadata.description} />
+      <meta name="keywords" content={siteMetadata.keywords.join(', ')} />
+
+      <link rel="canonical" href={siteMetadata.siteUrl} />
     </Helmet>
 
     <section id="one" className="main style1">
@@ -73,7 +71,7 @@ export default ({ data }) => (
         </div>
         <div className="col-6">
           <span className="image fit">
-            <Img fluid={data.file.childImageSharp.fluid} />
+            <Img fluid={file.childImageSharp.fluid} />
           </span>
         </div>
       </div>
