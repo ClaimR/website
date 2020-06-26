@@ -17,7 +17,7 @@ export const query = graphql`
     file(relativePath: { eq: "concept.png" }) {
       childImageSharp {
         fluid(maxWidth: 1126, quality: 90) {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+          ...GatsbyImageSharpFluid_withWebp_noBase64
           ...GatsbyImageSharpFluidLimitPresentationSize
         }
       }
