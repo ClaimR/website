@@ -28,6 +28,7 @@ export const query = graphql`
         siteUrl
         description
         keywords
+        language
       }
     }
   }
@@ -41,7 +42,7 @@ export default ({
 }) => (
   <Layout>
     <Helmet title={siteMetadata.title}>
-      <html lang="en" />
+      <html lang={siteMetadata.language} />
 
       <meta name="description" content={siteMetadata.description} />
       <meta name="keywords" content={siteMetadata.keywords.join(', ')} />
