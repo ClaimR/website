@@ -36,8 +36,8 @@ export const query = graphql`
 export default ({
   data: {
     site: { siteMetadata },
+    file: { childImageSharp: conceptImage },
   },
-  file,
 }) => (
   <Layout>
     <Helmet title={siteMetadata.title}>
@@ -71,7 +71,7 @@ export default ({
         </div>
         <div className="col-6">
           <span className="image fit">
-            <Img fluid={file.childImageSharp.fluid} />
+            <Img fluid={conceptImage.fluid} />
           </span>
         </div>
       </div>
