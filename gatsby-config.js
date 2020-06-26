@@ -5,6 +5,7 @@ module.exports = {
     title: 'ClaimR',
     author: 'Adriaan Knapen',
     description: 'Verified location-as-a-service API.',
+    siteUrl: 'https://claimr.tools',
   },
   plugins: [
     {
@@ -37,5 +38,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    'gatsby-plugin-robots-txt',
   ],
 }
