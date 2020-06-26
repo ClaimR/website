@@ -1,26 +1,30 @@
 const path = require('path')
 
+const siteMetadata = {
+  name: 'ClaimR',
+  title: 'ClaimR - Verified Location Made Easy',
+  author: 'Adriaan Knapen',
+  siteUrl: 'https://claimr.tools',
+  description:
+    'ClaimR offers Verified Location-as-a-Service for mobile devices. We use state of the art GNSS technology to fight location fraud.',
+  keywords: [
+    'GNSS',
+    'GPS',
+    'developers',
+    'SDK',
+    'Android',
+    'React Native',
+    'ClaimR',
+    'location',
+    'verification',
+    'fraud',
+    'prevention',
+  ],
+  language: 'en',
+}
+
 module.exports = {
-  siteMetadata: {
-    title: 'ClaimR - Verified Location Made Easy',
-    author: 'Adriaan Knapen',
-    siteUrl: 'https://claimr.tools',
-    description:
-      'ClaimR offers Verified Location-as-a-Service for mobile devices. We use state of the art GNSS technology to fight location fraud.',
-    keywords: [
-      'GNSS',
-      'GPS',
-      'developers',
-      'SDK',
-      'Android',
-      'React Native',
-      'ClaimR',
-      'location',
-      'verification',
-      'fraud',
-      'prevention',
-    ],
-  },
+  siteMetadata,
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
@@ -33,8 +37,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'ClaimR',
-        short_name: 'ClaimR',
+        name: siteMetadata.title,
+        short_name: siteMetadata.name,
+        lang: siteMetadata.language,
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
