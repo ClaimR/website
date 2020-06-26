@@ -13,6 +13,8 @@ const siteDescription =
 const videoGuideUrl = 'https://youtube.com/watch?v=EtDkMG_wSZ4'
 const liveApiUrl = 'https://api.claimr.tools'
 const reactNativeClientUrl = 'https://github.com/ClaimR/react-native-client'
+const rawGalileoWinnerUrl =
+  'https://www.gsa.europa.eu/newsroom/news/hackers-take-raw-galileo-challenge'
 
 export const query = graphql`
   query {
@@ -42,17 +44,17 @@ export default ({ data }) => (
             <h2>Verified Location Made Simple</h2>
           </header>
           <p>
-            Spoofing positioning systems, such as GPS, has become common
-            practice. Take for example AR based games (Pokemon Go and the like)
-            and many have an active community of "spoofers" who modify the
-            location perceived by their phone to get in-game benefits.
+            User location provides value across mobile applications, while
+            spoofing positioning systems, such as GPS, has become common
+            practice. Security issues arise, whether location is used for
+            connecting people, filtering content, navigation or regulation.
           </p>
           <p>
-            ClaimR uses raw measurements from positioning system (GNSS)
-            satellites and analyses these to detect malicious location
-            manipulations. Our goal is to make verifying your user's location
-            simple, hence you do not need to know anything about the intricacies
-            of GNSS in order to reap its benefits when using ClaimR.
+            ClaimR ensures the security of all location-based apps by analyzing
+            raw measurements from GNSS satellites and detecting malicious
+            location manipulations. Our{' '}
+            <a href={rawGalileoWinnerUrl}>prize-winning API</a> makes verifying
+            the location of your users quick and simple.
           </p>
         </div>
         <div className="col-6">
@@ -92,26 +94,16 @@ export default ({ data }) => (
             <h2>What We Do</h2>
           </header>
           <p>
-            Proving one’s location for additional security can be a challenge at
-            best. Not only is it hard to prove, there are also further privacy
-            concerns associated with it, thus requires an implementation that
-            all parties can trust. To aid in this security obstacle we created
-            ClaimR, a third party service verifying ones location with a signed
-            certificate.
+            The consequences of location manipulation within mobile services can
+            be extensive. ClaimR was created to increase trust with a signed
+            certificate offered by a third-party service.
           </p>
           <p>
-            Using raw GNSS data from your mobile we are able to determine your
-            location and create a signed certificate verifying your location to
-            any service requiring the information. Depending on the request, we
-            can provide an exact pin pointed location or a more generic and
-            broad placement, such as the city of London. ClaimR also makes
-            location faking using software much harder due to the use of raw
-            GNSS data, massively reducing the ease of attack.
-          </p>
-          <p>
-            The user can effortlessly request and provide their location
-            information to a service, whilst ensuring trust from both parties
-            using the security and accuracy of the information via ClaimR.
+            Using raw GNSS data from mobile phones, we can verify locations
+            claimed via satelite positioning, significantly reducing faked
+            locations while enhancing the privacy of end-users with a
+            customizable accuracy. We constantly learn from our customers to
+            deliver the most reliable, flexible and usable solution.
           </p>
         </div>
       </div>
