@@ -52,7 +52,7 @@ export default ({ data }) => (
             satellites and analyses these to detect malicious location
             manipulations. Our goal is to make verifying your user's location
             simple, hence you do not need to know anything about the intricacies
-            of GNSS in order to reap its benifits when using ClaimR.
+            of GNSS in order to reap its benefits when using ClaimR.
           </p>
         </div>
         <div className="col-6">
@@ -234,7 +234,7 @@ export default ({ data }) => (
               className="button"
               target="_blank"
               rel="noopener noreferrer"
-              alt="View ClaimR API Usage Video Guide on Youtube"
+              alt="View ClaimR API Usage Video Guide on YouTube"
             >
               <span className="icon fa-youtube-play"></span> API Video Guide
             </a>

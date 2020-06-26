@@ -31,10 +31,10 @@ const Footer = () => (
       <li>
         <a
           href="https://www.youtube.com/channel/UCZRWpBaWAeLP6uYLE0kDbRg"
-          alt="ClaimR's Youtube Channel"
+          alt="ClaimR's YouTube Channel"
           className="icon alt fa-youtube-play"
         >
-          <span className="label">Youtube</span>
+          <span className="label">YouTube</span>
         </a>
       </li>
     </ul>
