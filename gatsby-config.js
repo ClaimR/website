@@ -49,12 +49,12 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    {
-      resolve: 'gatsby-plugin-heap',
-      options: {
-        appId: process.env.HEAP_ID,
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-heap',
+    //   options: {
+    //     appId: process.env.HEAP_ID,
+    //   },
+    // },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-robots-txt',
