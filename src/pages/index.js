@@ -113,10 +113,10 @@ export default ({
           </p>
           <p>
             Using raw GNSS data from mobile phones, we can verify locations
-            claimed via satelite positioning, significantly reducing faked
-            locations while enhancing the privacy of end-users with a
-            customizable accuracy. We constantly learn from our customers to
-            deliver the most reliable, flexible and usable solution.
+            claimed via satellite positioning, significantly reducing faked
+            locations while enhancing the privacy of end-users with customizable
+            accuracy. We constantly learn from our customers to deliver the most
+            reliable, flexible and usable solution.
           </p>
         </div>
       </div>
