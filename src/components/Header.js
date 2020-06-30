@@ -1,9 +1,15 @@
 import React from 'react'
 
+import logo from '../assets/images/logo.svg'
+
 const Header = () => (
   <section id="header">
     <div className="inner">
-      <span className="icon major fa-cloud"></span>
+      <img
+        src={logo}
+        alt={'ClaimR Logo'}
+        style={{ width: '32em', maxWidth: '90%' }}
+      />
       <h1>Eliminating Location Fraud. Made Easy.</h1>
       <p>
         With <strong>ClaimR</strong> developers can verify their users'

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="Logo_Claimr.svg"
+   id="svg875"
+   version="1.1"
+   viewBox="0 0 108 43"
+   height="43px"
+   width="108px"
+   inkscape:export-filename="/Users/aknapen/Downloads/LOGO_Claimer/Logo_Claimr_White_4096x1631.png"
+   inkscape:export-xdpi="3640.8899"
+   inkscape:export-ydpi="3640.8899">
+  <metadata
+     id="metadata881">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Group 2</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs879" />
+  <sodipodi:namedview
+     inkscape:pagecheckerboard="true"
+     inkscape:current-layer="Group-2"
+     inkscape:window-maximized="1"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:cy="22.986816"
+     inkscape:cx="45.229846"
+     inkscape:zoom="9.8355761"
+     showgrid="false"
+     id="namedview877"
+     inkscape:window-height="1035"
+     inkscape:window-width="2560"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <title
+     id="title856">Group 2</title>
+  <g
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="1"
+     stroke="none"
+     id="Page-1">
+    <g
+       transform="translate(-347.000000, -111.000000)"
+       id="-">
+      <g
+         transform="translate(347.000000, 111.000000)"
+         id="Group-2">
+        <text
+           style="fill:#ffffff;fill-opacity:1;"
+           fill="#000000"
+           font-weight="bold"
+           font-size="20"
+           font-family="AvenirNext-Bold, Avenir Next"
+           id="ClaimR"><tspan
+             style="fill:#ffffff;fill-opacity:1;"
+             id="tspan859"
+             y="30"
+             x="32">ClaimR </tspan></text>
+        <g
+           fill-rule="nonzero"
+           transform="translate(7.000000, 6.000000)"
+           id="pin">
+          <path
+             fill="#FF623F"
+             id="Path"
+             d="M22,11.5277939 C22,15.0123138 20.3000882,17.7303009 18.4067584,20.4366989 L11,30.978241 L10.9837502,31 L3.59301586,20.4366989 C1.6996861,17.7303009 0,15.0123138 0,11.5273209 C0,5.17131804 4.93407746,0 10.9988716,0 L11.0437842,0 C17.0889432,0.0255432129 22,5.18692781 22,11.5277939 L22,11.5277939 Z" />
+          <path
+             style="stroke-width:1.06904"
+             fill="#ffffff"
+             id="path863"
+             d="M 19,11.999779 C 19,15.859912 15.410936,19 11,19 6.5890636,19 3,15.859912 3,11.999779 3,8.1400878 6.5890636,5 11,5 c 4.410936,0 8,3.1400878 8,6.999779 z" />
+          <path
+             fill="#E30020"
+             id="path865"
+             d="M22,11.535891 C22,15.0228584 20.3000882,17.7427546 18.4067584,20.4510536 L11,31 L11,0 L11.0437842,0 C17.0889432,0.0255611544 22,5.19057109 22,11.535891 L22,11.535891 Z" />
+          <path
+             fill="#D6D6D8"
+             id="path867"
+             d="M19,11.999779 C19,15.8599122 15.4109364,19 11,19 L11,5 C15.4109364,5 19,8.14008778 19,11.999779 Z" />
+          <polygon
+             points="16 10.3074191 12.0019823 14.1288662 11.0903797 15 8 12.0135291 9.34597039 10.7132937 11.0980611 12.4062338 12.0019823 11.5420441 14.661711 9"
+             fill="#0087FF"
+             id="polygon869" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
