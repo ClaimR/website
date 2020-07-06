@@ -44,6 +44,16 @@ const Footer = () => (
         <EmailContactLink>{email}</EmailContactLink>
       </li>
       <li>
+        Proudly made in{' '}
+        <span title="The Netherlands" aria-label="The Netherlands" role="img">
+          🇳🇱
+        </span>{' '}
+        and{' '}
+        <span title="Sweden" aria-label="Sweden" role="img">
+          🇸🇪
+        </span>
+      </li>
+      <li>
         Design by <a href="//html5up.net">HTML5 UP</a>
       </li>
     </ul>
