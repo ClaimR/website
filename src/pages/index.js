@@ -2,9 +2,12 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
+import drawingGdpr from '../assets/images/drawing-gdpr.svg'
+import drawingMyLocation from '../assets/images/drawing-my-location.svg'
+import drawingSecureLogin from '../assets/images/drawing-secure-login.svg'
+import drawingSateliteOverhead from '../assets/images/drawing-satelite-overhead.svg'
 
 const videoGuideUrl = 'https://youtube.com/watch?v=EtDkMG_wSZ4'
 const liveApiUrl = 'https://api.claimr.tools'
@@ -14,14 +17,6 @@ const rawGalileoWinnerUrl =
 
 export const query = graphql`
   query {
-    file(relativePath: { eq: "concept.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1126, quality: 90) {
-          ...GatsbyImageSharpFluid_withWebp_noBase64
-          ...GatsbyImageSharpFluidLimitPresentationSize
-        }
-      }
-    }
     site {
       siteMetadata {
         title
@@ -37,7 +32,6 @@ export const query = graphql`
 export default ({
   data: {
     site: { siteMetadata },
-    file: { childImageSharp: conceptImage },
   },
 }) => (
   <Layout>
@@ -72,7 +66,7 @@ export default ({
         </div>
         <div className="col-6">
           <span className="image fit">
-            <Img fluid={conceptImage.fluid} />
+            <img src={drawingSateliteOverhead} alt="" />
           </span>
         </div>
       </div>
@@ -80,28 +74,7 @@ export default ({
 
     <section id="two" className="main style2">
       <div className="grid-wrapper">
-        <div className="col-6">
-          {/* <ul className="major-icons">
-                <li>
-                  <span className="icon style1 major fa-code"></span>
-                </li>
-                <li>
-                  <span className="icon style2 major fa-bolt"></span>
-                </li>
-                <li>
-                  <span className="icon style3 major fa-camera-retro"></span>
-                </li>
-                <li>
-                  <span className="icon style4 major fa-cog"></span>
-                </li>
-                <li>
-                  <span className="icon style5 major fa-desktop"></span>
-                </li>
-                <li>
-                  <span className="icon style6 major fa-calendar"></span>
-                </li>
-              </ul> */}
-        </div>
+        <div className="col-6" />
         <div className="col-6">
           <header className="major">
             <h2>What We Do</h2>
@@ -128,15 +101,10 @@ export default ({
           <header className="major">
             <h2>Use Cases</h2>
           </header>
-          {/* <p>
-                When .
-              </p> */}
         </div>
 
         <div className="col-4">
-          <span className="image fit">
-            <span className="icon style3 major fa-shield"></span>
-          </span>
+          <img src={drawingMyLocation} className="icon major" alt={''} />
           <h3>Fraud Prevention</h3>
           <p>
             Spoofers can manipulate the location of their mobile devices to
@@ -146,6 +114,10 @@ export default ({
             your app to <b>trust that the user location is legitimate</b>.
           </p>
           {/* 
+          {/* 
+            {/* 
+          {/* 
+            {/* 
               <ul className="actions">
                 <li>
                   <a href="#" className="button">
@@ -155,9 +127,7 @@ export default ({
               </ul> */}
         </div>
         <div className="col-4">
-          <span className="image fit">
-            <span className="icon style1 major fa-id-badge"></span>
-          </span>
+          <img src={drawingSecureLogin} className="icon major" alt={''} />
           <h3>Authorization</h3>
           <p>
             Some <b>content should be accessible based on a user's location</b>.
@@ -175,9 +145,7 @@ export default ({
               </ul>*/}
         </div>
         <div className="col-4">
-          <span className="image fit">
-            <span className="icon style6 major fa-map"></span>
-          </span>
+          <img src={drawingGdpr} className="icon major" alt={''} />
           <h3>Privacy Enhancing</h3>
           <p>
             Location tracking is a threat to user privacy, ClaimR uses claims

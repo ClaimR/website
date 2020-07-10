@@ -460,6 +460,9 @@
 			display: inline-block;
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
 
+			width: 8em;
+			height: 8em;
+
 			&:before {
 				font-size: 4em;
 				line-height: 1em;
