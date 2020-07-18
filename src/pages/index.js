@@ -9,11 +9,14 @@ import drawingMyLocation from '../assets/images/drawing-my-location.svg'
 import drawingSecureLogin from '../assets/images/drawing-secure-login.svg'
 import drawingSateliteOverhead from '../assets/images/drawing-satelite-overhead.svg'
 
-const videoGuideUrl = 'https://youtube.com/watch?v=EtDkMG_wSZ4'
 const liveApiUrl = 'https://api.claimr.tools'
 const reactNativeClientUrl = 'https://github.com/ClaimR/react-native-client'
 const rawGalileoWinnerUrl =
   'https://www.gsa.europa.eu/newsroom/news/hackers-take-raw-galileo-challenge'
+const docsApiGettingStartedUrl =
+  'https://docs.claimr.tools/docs/api/getting-started'
+const docsReactNativeGettingStarted =
+  'https://docs.claimr.tools/docs/react-native/getting-started'
 
 export const query = graphql`
   query {
@@ -170,9 +173,8 @@ export default ({
           <h2>Getting Started</h2>
         </header>
         <p className="align-center">
-          Looking to discover our API? Visit our{' '}
-          <a href={liveApiUrl}>live API</a> or watch the{' '}
-          <a href={videoGuideUrl}>"Getting Started"</a> video guide.
+          Looking to discover our API? Check out our{' '}
+          <a href={docsApiGettingStartedUrl}>Getting Started</a> guide.
           <br />
           Developing for Android using React Native? Check out our{' '}
           <a href={reactNativeClientUrl}>React Native SDK</a>.
@@ -191,13 +193,13 @@ export default ({
           </li>
           <li>
             <a
-              href={videoGuideUrl}
+              href={docsApiGettingStartedUrl}
               className="button"
               target="_blank"
               rel="noopener noreferrer"
-              alt="View ClaimR API Usage Video Guide on YouTube"
+              alt="API Getting Started Guide"
             >
-              <span className="icon fa-youtube-play"></span> API Video Guide
+              Getting Started
             </a>
           </li>
           <li>
