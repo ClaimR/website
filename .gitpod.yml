@@ -1,0 +1,9 @@
+tasks:
+  - init: yarn install --frozen-lockfile
+    command: yarn run dev
+
+ports:
+  - port: 8000
+    onOpen: open-preview
+  - port: 8001-50400
+    onOpen: ignore
