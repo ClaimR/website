@@ -45,13 +45,17 @@ const Footer = () => (
       </li>
       <li>
         Proudly made in{' '}
-        <span title="The Netherlands" aria-label="The Netherlands" role="img">
-          🇳🇱
-        </span>{' '}
+        <img
+          src="https://lipis.github.io/flag-icon-css/flags/4x3/nl.svg"
+          width="15px"
+          alt="Flag Netherlands"
+        />{' '}
         and{' '}
-        <span title="Sweden" aria-label="Sweden" role="img">
-          🇸🇪
-        </span>
+        <img
+          src="https://lipis.github.io/flag-icon-css/flags/4x3/se.svg"
+          width="15px"
+          alt="Flag Sweden"
+        />
       </li>
       <li>
         Design by <a href="//html5up.net">HTML5 UP</a>
