@@ -192,7 +192,7 @@ export default ({
           </li>
           <li>
             <a
-              href={developerWebsiteUrl}
+              href={docsApiGettingStartedUrl}
               className="button"
               target="_blank"
               rel="noopener noreferrer"
