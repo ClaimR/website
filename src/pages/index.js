@@ -13,10 +13,9 @@ const liveApiUrl = 'https://api.claimr.tools'
 const reactNativeClientUrl = 'https://github.com/ClaimR/react-native-client'
 const rawGalileoWinnerUrl =
   'https://www.gsa.europa.eu/newsroom/news/hackers-take-raw-galileo-challenge'
+const developerWebsiteUrl = 'https://developer.claimr.tools'
 const docsApiGettingStartedUrl =
-  'https://docs.claimr.tools/docs/api/getting-started'
-const docsReactNativeGettingStarted =
-  'https://docs.claimr.tools/docs/react-native/getting-started'
+  'https://developer.claimr.tools/docs/react-native/getting-started'
 
 export const query = graphql`
   query {
@@ -182,22 +181,22 @@ export default ({
         <ul className="actions uniform">
           <li>
             <a
-              href={liveApiUrl}
+              href={developerWebsiteUrl}
               className="button special"
               target="_blank"
               rel="noopener noreferrer"
-              alt="Visit the ClaimR API"
+              alt="Developer Website"
             >
-              Live API
+              Developer Website
             </a>
           </li>
           <li>
             <a
-              href={docsApiGettingStartedUrl}
+              href={developerWebsiteUrl}
               className="button"
               target="_blank"
               rel="noopener noreferrer"
-              alt="API Getting Started Guide"
+              alt="Getting started documentation"
             >
               Getting Started
             </a>
