@@ -39,7 +39,7 @@ const Footer = () => (
       </li>
     </ul>
     <ul className="copyright">
-      <li>{'©'} ClaimR 2020</li>
+      <li>Copyright © {new Date().getFullYear()}, ClaimR</li>
       <li>
         <EmailContactLink>{email}</EmailContactLink>
       </li>
