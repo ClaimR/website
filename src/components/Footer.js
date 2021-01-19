@@ -37,6 +37,15 @@ const Footer = () => (
           <span className="label">YouTube</span>
         </a>
       </li>
+      <li>
+        <a
+          href="https://linkedin.com/company/ClaimR-BV"
+          alt="ClaimR on LinkedIn"
+          className="icon alt fa-linkedin"
+        >
+          <span className="label">LinkedIn</span>
+        </a>
+      </li>
     </ul>
     <ul className="copyright">
       <li>Copyright © {new Date().getFullYear()}, ClaimR</li>
