@@ -8,14 +8,16 @@ import drawingGdpr from '../assets/images/drawing-gdpr.svg'
 import drawingMyLocation from '../assets/images/drawing-my-location.svg'
 import drawingSecureLogin from '../assets/images/drawing-secure-login.svg'
 import drawingSateliteOverhead from '../assets/images/drawing-satelite-overhead.svg'
+import claimrAuthFeaturedBanner from '../assets/images/claimr-auth_featured.jpg'
 
-const liveApiUrl = 'https://api.claimr.tools'
 const reactNativeClientUrl = 'https://github.com/ClaimR/react-native-client'
 const rawGalileoWinnerUrl =
   'https://www.gsa.europa.eu/newsroom/news/hackers-take-raw-galileo-challenge'
 const developerWebsiteUrl = 'https://developer.claimr.tools'
 const docsApiGettingStartedUrl =
   'https://developer.claimr.tools/docs/react-native/getting-started'
+const claimrAuthGooglePlayUrl =
+  'https://play.google.com/store/apps/details?id=tools.claimr.auth'
 
 export const query = graphql`
   query {
@@ -162,6 +164,60 @@ export default ({
                   </a>
                 </li>
               </ul> */}
+        </div>
+      </div>
+    </section>
+
+    <section
+      id={'claimr-auth'}
+      className="main style2"
+      style={{ background: '#272731' }}
+    >
+      <div className="grid-wrapper">
+        <div className="col-12">
+          <header className="major">
+            <h2>ClaimR Auth</h2>
+          </header>
+        </div>
+
+        <div className="col-4">
+          <p>
+            ClaimR Auth allows you to <b>secure your online identities</b> with
+            our location based authentication technology. You can use it today
+            as a multi-factor authentication solution to protect your accounts
+            on many well known services, like Google, Facebook, Twitter, Amazon
+            and countless others. This allows you to control from which location
+            login attempts can be completed, giving you an additional layer of
+            security against malicious actors.
+          </p>
+          <p>
+            Visit the{' '}
+            <a href={claimrAuthGooglePlayUrl} alt="ClaimR Auth on Google Play">
+              Google Play Store
+            </a>{' '}
+            and download ClaimR Auth for free.
+          </p>
+          <p>
+            <ul className="actions">
+              <li>
+                <a
+                  href={claimrAuthGooglePlayUrl}
+                  className="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="Download ClaimR Auth on Google Play"
+                >
+                  Download ClaimR Auth
+                </a>
+              </li>
+            </ul>
+          </p>
+        </div>
+
+        <div className="col-8">
+          <span className="image fit">
+            <img src={claimrAuthFeaturedBanner} alt="" />
+          </span>
         </div>
       </div>
     </section>
