@@ -8,7 +8,6 @@ import drawingGdpr from '../assets/images/drawing-gdpr.svg'
 import drawingMyLocation from '../assets/images/drawing-my-location.svg'
 import drawingSecureLogin from '../assets/images/drawing-secure-login.svg'
 import drawingSateliteOverhead from '../assets/images/drawing-satelite-overhead.svg'
-import claimrAuthFeaturedBanner from '../assets/images/claimr-auth_featured.jpg'
 
 const reactNativeClientUrl = 'https://github.com/ClaimR/react-native-client'
 const rawGalileoWinnerUrl =
@@ -215,9 +214,27 @@ export default ({
         </div>
 
         <div className="col-8">
-          <span className="image fit">
-            <img src={claimrAuthFeaturedBanner} alt="" />
-          </span>
+          <div
+            style={{
+              position: 'relative',
+              width: '100%',
+              paddingBottom: '56.25%',
+            }}
+          >
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/kEtMKDenrYU?vq=hd1080&modestbranding=1"
+              title={'ClaimR Auth - Product Announcement (Video)'}
+              style={{
+                position: 'absolute',
+                top: '0',
+                left: '0',
+                width: '100%',
+                height: '100%',
+                border: '0',
+              }}
+              allowFullScreen
+            />
+          </div>
         </div>
       </div>
     </section>
