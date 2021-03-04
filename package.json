@@ -17,7 +17,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^2.32.8",
+    "gatsby": "^3.0.0",
     "gatsby-image": "^3.0.0",
     "gatsby-plugin-heap": "^1.1.0",
     "gatsby-plugin-manifest": "^2.12.1",
