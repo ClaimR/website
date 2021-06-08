@@ -34,11 +34,7 @@ class Template extends React.Component {
           {children}
           <Footer />
         </div>
-        <script
-          data-goatcounter="https://claimr.goatcounter.com/count"
-          async
-          src="//gc.zgo.at/count.js"
-        ></script>
+        <script async defer data-domain="claimr.tools" src="https://plausible.io/js/plausible.js"></script>
       </>
     )
   }
