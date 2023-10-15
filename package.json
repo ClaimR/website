@@ -40,7 +40,7 @@
     "@types/react-dom": "^17.0.0",
     "husky": "^4.3.8",
     "lint-staged": "14.0.1",
-    "prettier": "2.8.8"
+    "prettier": "3.0.3"
   },
   "repository": {
     "type": "git",
