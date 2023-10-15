@@ -34,7 +34,12 @@ class Template extends React.Component {
           {children}
           <Footer />
         </div>
-        <script async defer data-domain="claimr.tools" src="https://plausible.io/js/plausible.js"></script>
+        <script
+          async
+          defer
+          data-domain="claimr.tools"
+          src="https://plausible.io/js/plausible.js"
+        ></script>
       </>
     )
   }
