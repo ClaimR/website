@@ -48,7 +48,7 @@ const Footer = () => (
       </li>
     </ul>
     <ul className="copyright">
-      <li>Copyright © {new Date().getFullYear()}, ClaimR B.V.</li>
+      <li>Copyright © 2020 - {new Date().getFullYear()}, ClaimR B.V.</li>
       <li>KvK 81570872</li>
       <li>VAT-ID NL862141655B01</li>
       <li>
