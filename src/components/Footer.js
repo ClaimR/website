@@ -57,13 +57,13 @@ const Footer = () => (
       <li>
         Proudly made in{' '}
         <img
-          src="https://lipis.github.io/flag-icon-css/flags/4x3/nl.svg"
+          src="https://flagicons.lipis.dev/flags/4x3/nl.svg"
           width="15px"
           alt="Flag Netherlands"
         />{' '}
         and{' '}
         <img
-          src="https://lipis.github.io/flag-icon-css/flags/4x3/se.svg"
+          src="https://flagicons.lipis.dev/flags/4x3/se.svg"
           width="15px"
           alt="Flag Sweden"
         />
